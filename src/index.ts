@@ -1,5 +1,6 @@
+import cors from 'cors';
 import express from 'express';
-import routes from './routes/cart';
+import routes from './routes/cart-items';
 
 const app = express();
 const PORT = 3001;
